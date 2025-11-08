@@ -1,0 +1,59 @@
+﻿variable,value,units,description,source
+ws_area_sqkm,451.579610934821,Square kilometers,Watershed area in square kilometers,Calculated from watershed geometry
+rckdepws_streamcat,124.193843847245,mm,Depth to bedrock,StreamCat
+clayws_streamcat,21.1635966290677,Percent,Percent clay content in soil,StreamCat
+wtdepws_streamcat,179.519052934429,mm,Water table depth,StreamCat
+permws_streamcat,7.94766104501373,cm/hr,Soil permeability,StreamCat
+sandws_streamcat,40.074122657616,Percent,Percent sand content in soil,StreamCat
+wsareasqkm_streamcat,437.0067,,,
+dominant_aspect,SW,Cardinal direction,Most common aspect direction in watershed,Calculated from DEMs using elevatr package
+mean_slope_mm,0.49264344769249,m/m,Mean slope in meters/meter,Calculated from DEMs using elevatr package
+slope30,0.75402487740316,Ratio (0-1),Fraction of drainage area with slopes > 0.3 m/m,Calculated from DEMs using elevatr package
+northness_mean,0.00622177432762323,Dimensionless (-1 to 1),Mean northness (sin(slope) * cos(aspect)),Calculated from DEMs using elevatr package
+north_fraction,0.126197305484373,Ratio (0-1),Fraction of drainage area with north-facing slopes,Calculated from DEMs using elevatr package
+mean_elevation,3108.09938503056,m,Mean elevation of watershed,Calculated from DEMs using elevatr package
+swe_jan,172.196697878675,mm,Mean snow water equivalent - January,Daymet
+swe_feb,244.186510898551,mm,Mean snow water equivalent - February,Daymet
+swe_mar,304.12618431918,mm,Mean snow water equivalent - March,Daymet
+swe_apr,324.526601790093,mm,Mean snow water equivalent - April,Daymet
+swe_may,291.681558246,mm,Mean snow water equivalent - May,Daymet
+swe_jun,205.658957170324,mm,Mean snow water equivalent - June,Daymet
+swe_jul,113.493123851152,mm,Mean snow water equivalent - July,Daymet
+swe_aug,53.7522226779339,mm,Mean snow water equivalent - August,Daymet
+swe_sep,27.2255351257375,mm,Mean snow water equivalent - September,Daymet
+swe_oct,22.4023352740942,mm,Mean snow water equivalent - October,Daymet
+swe_nov,43.1794688477263,mm,Mean snow water equivalent - November,Daymet
+swe_dec,108.032583113448,mm,Mean snow water equivalent - December,Daymet
+swe_avg,159.205148266076,mm,Annual mean snow water equivalent,Daymet
+swe_peak,329.910137652849,mm,Mean annual peak snow water equivalent,Daymet
+swe_avg_sum,1910.46177919291,mm,Mean total annual snow water equivalent,Daymet
+prcp_jan,98.9772374942883,mm,Mean precipitation - January,Daymet
+prcp_feb,104.868319862549,mm,Mean precipitation - February,Daymet
+prcp_mar,88.5265289824665,mm,Mean precipitation - March,Daymet
+prcp_apr,93.0466372950604,mm,Mean precipitation - April,Daymet
+prcp_may,66.9375843969944,mm,Mean precipitation - May,Daymet
+prcp_jun,24.5545925518274,mm,Mean precipitation - June,Daymet
+prcp_jul,60.8596972593008,mm,Mean precipitation - July,Daymet
+prcp_aug,63.3429062942575,mm,Mean precipitation - August,Daymet
+prcp_sep,70.1687805333686,mm,Mean precipitation - September,Daymet
+prcp_oct,76.2171126045168,mm,Mean precipitation - October,Daymet
+prcp_nov,81.6764475018519,mm,Mean precipitation - November,Daymet
+prcp_dec,112.57706236792,mm,Mean precipitation - December,Daymet
+prcp_avg,78.4794089287001,mm,Annual mean precipitation,Daymet
+prcp_peak,166.876686275946,mm,Mean annual peak precipitation,Daymet
+prcp_avg_sum,941.752907144401,mm,Mean total annual precipitation,Daymet
+mean_sp_2001_2020,76.7680144934846,Percent,Mean snow persistence 2001-2020,MODIS Snow Cover Index
+area60,0.813225479412904,Fraction (0-1),Fraction of watershed with snow persistence > 60%,Calculated from MODIS
+dominant_geology,sedimentary_clastic,Dominant geologic type,Dominant geology type in watershed,USGS State Geologic Map Compilation
+damdensws_nid,0.0022144489238521,count/km^2,Dam density from National Inventory of Dams,National Inventory of Dams
+damnidstorws_nid,0.254661626242991,acre-feet/km^2,Dam storage volume from National Inventory of Dams,National Inventory of Dams
+damnrmstorws_nid,0.159440322517351,acre-feet/km^2,Normal dam storage volume from National Inventory of Dams,National Inventory of Dams
+forest_percent,57.4651118940291,Percent,"Percent of watershed classified as forest (NLCD classes 41, 42, 43)",NLCD 2019
+grassland_percent,3.91882187181279,Percent,Percent of watershed classified as grassland/herbaceous (NLCD class 71),NLCD 2019
+shrub_percent,24.461604162751,Percent,Percent of watershed classified as shrub/scrub (NLCD class 52),NLCD 2019
+agriculture_percent,0.0420165925372591,Percent,"Percent of watershed classified as agriculture (NLCD classes 81, 82)",NLCD 2019
+impervious_percent,0.251258888036365,Percent,Percent of watershed with impervious surfaces,NLCD 2019
+road_density_km_per_km2,0.0485577217675979,km/km^2,Road density in kilometers per square kilometer,TIGER/Line roads dataset
+percent_burned,0,Percent,Percent of watershed burned,MTBS
+hyd_region,central,Dominant hydrologic region,Dominant hydrologic region,"USGS, modified"
+avg_tot_pet,1071.97119711478,mm,Mean annual PET,GridMET

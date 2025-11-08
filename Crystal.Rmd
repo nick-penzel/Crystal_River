@@ -1,0 +1,70 @@
+---
+title: "Crystal"
+author: "Nick Penzel"
+date: "2025-11-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+source("Setup.R")
+```
+
+```{r}
+# load in stream data 
+locId <-  "USGS-09081600" #USGS gauge above Avalanche Creek on the Crystal
+paramCode <- "00060"
+time_int <- "2010-01-01/2025-10-31"
+crystal_flow <- read_waterdata_daily(monitoring_location_id = locId,
+                              parameter_code = paramCode, 
+                              time = time_int)
+
+mod_stats <- read_csv("data/crystal_modeled_stats.csv")
+
+```
+
+```{r}
+crystal_hydrograph <- ggplot(data = crystal_flow, aes(x = time, y = value))+
+  geom_line(color = "blue3")+
+  theme_clean()+
+  labs(
+    x = "Date",
+    y = "Discharge (cfs)"
+  )
+
+
+ggplotly(crystal_hydrograph)
+
+```
+
+```{r}
+yearly_q <- crystal_flow %>% 
+  mutate(year = year(time)) %>% 
+  group_by(year) %>% 
+  summarise(year_q = sum(value))
+
+ggplot(data = yearly_q, aes(x = year, y = year_q, fill = year))+
+  geom_col()+
+  theme_clean()+
+  theme(legend.position = "none")+
+  labs(
+    x = "Date",
+    y = "Yearly Total Discharge (cfs)"
+  )
+
+```
+
+```{r}
+monthly_q <- crystal_flow %>% 
+  mutate(month = month(time)) %>% 
+  group_by(month) %>% 
+  summarise(month_mean = mean(value)) %>% 
+  mutate(month_ab = month.abb[month])
+
+ggplot(data = monthly_q, aes(x = month, y = month_mean))+
+  geom_col()
+```
+

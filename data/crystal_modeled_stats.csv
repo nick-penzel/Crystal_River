@@ -1,0 +1,59 @@
+﻿flow_stat,unit,value,lower_ci,upper_ci
+Qann,cfs,221.811,202.891,241.573
+Qann,mm/year,438.931,401.492,478.039
+Qjan,cfs,35.539,28.071,43.887
+Qjan,mm/month,5.969,4.715,7.371
+Qfeb,cfs,43.785,31.304,58.354
+Qfeb,mm/month,6.701,4.791,8.931
+Qmar,cfs,43.195,31.613,56.581
+Qmar,mm/month,7.255,5.309,9.503
+Qapr,cfs,164.906,115.338,223.312
+Qapr,mm/month,26.803,18.746,36.296
+Qmay,cfs,512.719,418.399,616.618
+Qmay,mm/month,86.112,70.271,103.562
+Qjun,cfs,720.404,634.242,812.052
+Qjun,mm/month,117.09,103.086,131.986
+Qjul,cfs,293.881,257.36,332.824
+Qjul,mm/month,49.358,43.224,55.899
+Qaug,cfs,136.781,118.436,156.448
+Qaug,mm/month,22.973,19.892,26.276
+Qsep,cfs,87.384,76.112,99.434
+Qsep,mm/month,14.203,12.371,16.161
+Qoct,cfs,86.38,75.962,97.467
+Qoct,mm/month,14.508,12.758,16.37
+Qnov,cfs,43.399,36.139,51.323
+Qnov,mm/month,7.054,5.874,8.342
+Qdec,cfs,36.404,28.391,45.412
+Qdec,mm/month,6.114,4.768,7.627
+Qmin,cfs,14.457,11.625,17.596
+Qmin,mm/day,0.078,0.063,0.095
+Q5,cfs,15.833,12.318,19.787
+Q5,mm/day,0.086,0.067,0.107
+Qmax,cfs,1585.074,1381.516,1802.615
+Qmax,mm/day,8.588,7.485,9.766
+Q95,cfs,1082.582,980.603,1189.604
+Q95,mm/day,5.865,5.313,6.445
+Day10,date (water year),2024-03-04,2024-02-07,2024-04-02
+Day10,day of water year,156,130,185
+Day20,date (water year),2024-04-19,2024-03-30,2024-05-11
+Day20,day of water year,202,182,224
+Day30,date (water year),2024-05-12,2024-04-23,2024-05-31
+Day30,day of water year,225,206,244
+Day40,date (water year),2024-05-23,2024-05-13,2024-06-01
+Day40,day of water year,236,226,245
+Day50,date (water year),2024-05-30,2024-05-23,2024-06-06
+Day50,day of water year,243,236,250
+Day60,date (water year),2024-06-05,2024-05-29,2024-06-12
+Day60,day of water year,249,242,256
+Day70,date (water year),2024-06-25,2024-06-17,2024-07-02
+Day70,day of water year,269,261,276
+Day80,date (water year),2024-07-07,2024-06-29,2024-07-15
+Day80,day of water year,281,273,289
+Day90,date (water year),2024-07-10,2024-07-01,2024-07-20
+Day90,day of water year,284,275,294
+Monsoon,fraction,0.257,0.216,0.302
+Bankfull,cfs,1530.616,1354.333,1717.681
+Bankfull,mm/day,8.293,7.338,9.306
+Bankfull,mm/day,8.293,7.338,9.306
+Qdaily,cfs,225.616,206.587,245.483
+Qdaily,mm/day,1.222,1.119,1.33

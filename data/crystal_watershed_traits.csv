@@ -1,0 +1,115 @@
+﻿StreamStats Gage Page
+
+Gage Information
+Name,Value
+USGS Station Number,"09081600"
+Station Name,"CRYSTAL RIVER AB AVALANCHE C, NEAR REDSTONE, CO."
+Station Type,"Gaging Station, continuous record"
+Latitude,"39.23221"
+Longitude,"-107.2273"
+NWIS Latitude,"39.23263889"
+NWIS Longitude,"-107.2275"
+Is regulated?,"false"
+Agency,"United States Geological Survey"
+NWIS Discharge Period of Record,"1955-10-01 - 2025-11-06"
+
+Physical Characteristics
+
+"Precipitation Statistics"
+"Characteristic Name","Value","Units","Citation"
+"Mean Annual Precipitation","39.5","inches","143"
+"6 Hour 100 Year Precipitation","2.3","inches","143"
+
+"Basin Dimensional Characteristics"
+"Characteristic Name","Value","Units","Citation"
+"Drainage Area","167.3","square miles","143"
+
+"Topographical Characteristics"
+"Characteristic Name","Value","Units","Citation"
+"Mean Basin Elevation","10166","feet","143"
+"Mean Basin Slope from 10m DEM","49.4","percent","143"
+"Percent above 7500 ft","97.7","percent","143"
+
+Streamflow Statistics
+
+"Peak-Flow Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"50-percent AEP flood","2180","cubic feet per second","✔","","","143",""
+"20-percent AEP flood","2780","cubic feet per second","✔","","","143",""
+"10-percent AEP flood","3140","cubic feet per second","✔","","","143",""
+"4-percent AEP flood","3570","cubic feet per second","✔","","","143",""
+"2-percent AEP flood","3880","cubic feet per second","✔","","","143",""
+"1-percent AEP flood","4170","cubic feet per second","✔","","","143",""
+"0.5-percent AEP flood","4450","cubic feet per second","✔","","","143",""
+"0.2-percent AEP flood","4820","cubic feet per second","✔","","","143",""
+"Systematic peak years","50","years","✔","","","143",""
+
+"Flow-Duration Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"1 Percent Duration","2030","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"2 Percent Duration","1800","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"3 Percent Duration","1600","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"5 Percent Duration","1350","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"10 Percent Duration","925","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"15 Percent Duration","636","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"20 Percent Duration","406","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"25 Percent Duration","276","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"30 Percent Duration","205","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"35 Percent Duration","162","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"40 Percent Duration","131","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"45 Percent Duration","111","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"50 Percent Duration","95","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"55 Percent Duration","84","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"60 Percent Duration","75","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"65 Percent Duration","66","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"70 Percent Duration","61","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"75 Percent Duration","56","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"80 Percent Duration","52","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"85 Percent Duration","48","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"90 Percent Duration","44","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"95 Percent Duration","39","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"97 Percent Duration","37","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"98 Percent Duration","35","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"99 Percent Duration","33","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+
+"Annual Flow Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"Mean Annual Flow","295","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Stand Dev of Mean Annual Flow","86","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Maximum Annual Mean Flow","468","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Minimum Annual Mean Flow","107","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+
+"General Flow Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"Minimum daily flow","21","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Maximum daily flow","3500","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Std Dev of daily flows","446","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Average daily streamflow","294.827","cubic feet per second","✔","49","","86",""
+"Harmonic Mean Streamflow adjusted for proportion of zero flow days","88","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Mean_of_Logs_of_Daily_Values","2.140997","Log base 10","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Std_Dev_of_Logs_of_Daily_Values","0.490939","Log base 10","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Skew_of_Logs_of_Daily_Values","0.853978","Log base 10","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+"Non_Zero_Adjusted_Harmonic_Mean_Flow","88","cubic feet per second","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+
+"Base Flow Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"Number of years to compute BFI","48","years","✔","49","","87",""
+"Average BFI value","0.687","dimensionless","✔","49","","87",""
+"Std dev of annual BFI values","0.075","dimensionless","✔","49","","87",""
+
+"Probability Statistics"
+"Statistic Name","Value","Units","Preferred?","Years of Record","Standard Error, percent","Citation","Comments"
+"Probability zero flow durations","0","dimensionless","✔","60","","52","Statistic Date Range 10/1/1955 - 9/30/2015 "
+
+Citations
+"ID","Citation"
+"143","Capesius,  J.P., and Stephens, V. C., 2009,  Regional Regression Equations for Estimation of Natural Streamflow Statistics in Colorado: U. S. Geological Survey Scientific Investigations Report  2009-5136, 32 p."
+"52","Granato G.E., Ries, K.G., III, and Steeves, P.A., 2017, Compilation of streamflow statistics calculated from daily mean streamflow data collected during water years 1901–2015 for selected U.S. Geological Survey streamgages: U.S. Geological Survey Open-File Report 2017-1108, 17 p."
+"86","Wolock, D.M., 2003, Flow characteristics at U.S. Geological Survey streamgages in the conterminous United States: U.S. Geological Survey Open-File Report 03-146, digital data set"
+"87","Wolock, D.M., 2003, Base-flow index grid for the conterminous United States: U.S. Geological Survey Open-File Report 03-263, digital data set"
+
+"USGS Data Disclaimer: Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty."
+"USGS Software Disclaimer: This software has been approved for release by the U.S. Geological Survey (USGS). Although the software has been subjected to rigorous review, the USGS reserves the right to update the software as needed pursuant to further analysis and review. No warranty, expressed or implied, is made by the USGS or the U.S. Government as to the functionality of the software and related material nor shall the fact of release constitute any such warranty. Furthermore, the software is released on condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from its authorized or unauthorized use."
+"USGS Product Names Disclaimer: Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government."
+
+"Application Version:",4.29.3
